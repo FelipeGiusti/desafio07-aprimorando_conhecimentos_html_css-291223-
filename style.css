@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --color-base-white: #FFFFFF;
+  --color-base-blue-300: #46a3c2;
+  --color-base-blue-600: #387E96;
+  --color-base-gray-800: #202024;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
+  height: 100vh;
+}
+
+/* cabeçalho */
+
+.container {
+  padding: 1.6rem;
+  background-color: var(--color-base-blue-600);
+  display: flex;
+}
+
+header {
+  align-items: center;
+}
+
+.container nav img {
+  padding-left: 11.2rem;
+  padding-right: 2.6rem;
+}
+
+
+.input-wrapper label {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.input-wrapper input {
+  width: 105rem;
+  padding: 1.6rem;
+  margin-right: 2.6rem;
+  background-color: var(--color-base-blue-300);
+  border: 0;
+  border-radius: .6rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--color-base-white);
+}
+
+.input-wrapper input::placeholder {
+  opacity: 0.56;
+  color: var(--color-base-white);
+}
+
+.avatar {
+  width: 4.2rem;
+  height: 4.2rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 11.2rem;
+}
+
+/* conteudo */
+
+main {
+  display: flex;
+  overflow-y: scroll;
+  background-color: var(--color-base-white);
+  padding: 2.2rem 11.2rem;
+}
+
+.artigo {
+  width: 65%;
+}
+
+.gato {
+  width: 100%;
+  height: 100%;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 0;
+}
+
+.dedao {
+  display: flex;
+}
+
+.titulo img {
+  padding: .4rem;
+}
+
+.artigo h2 {
+  font-size: 2.4rem;
+  padding: 1.6rem 0;
+}
+
+.artigo p {
+  text-align: justify;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-bottom: 2.2rem;
+}
+
+.artigo-rela {
+  width: 35%;
+  padding-left: 9.6rem;
+}
+
+.artigo-rela h2 {
+  padding-bottom: 3.2rem;
+}
+
+.card {
+  display: flex;
+  padding-bottom: 3.2rem;
+}
+
+.conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1.6rem;
+  padding-bottom: .8rem;
+}
+
+
+/* rodapé */
+footer {
+  justify-content: center;
+}
+
+footer p {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1.6rem;
+  font-weight: 600;
+  color: var(--color-base-white);
+}
+
+
+.input-wrapper label {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.input-wrapper input {
+  width: 105rem;
+  padding: 1.6rem;
+  margin-right: 2.6rem;
+  background-color: var(--color-base-blue-300);
+  border: 0;
+  border-radius: .6rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--color-base-white);
+}
+
+.input-wrapper input::placeholder {
+  opacity: 0.56;
+  color: var(--color-base-white);
+}
+
+.avatar {
+  width: 4.2rem;
+  height: 4.2rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 11.2rem;
+}
